@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:focusable="false">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최적 온도 : 22~24°c, 최적 습도 : 45~50%"
+        android:id="@+id/idealTxt"
+        android:autoText="false"
+        android:layout_above="@+id/requireTxt"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="온도가 너무 높아요. 창문을 열고 온도를 내리세요."
+        android:id="@+id/requireTxt"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TopImg"
+        android:src="@drawable/top"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/tempImg"
+        android:src="@drawable/icontemp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/TopImg"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/humiImg"
+        android:src="@drawable/iconhumidity"
+        android:layout_below="@+id/tempImg"
+        android:layout_alignParentLeft="true" />
+
+    <com.mungi.customProgressbar.CustomProgressBar
+        android:id="@+id/temp_progress_bar"
+        style="@style/NumberProgressBar_Beauty_Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_alignBottom="@+id/tempImg"
+        android:layout_alignStart="@+id/humi_progress_bar"
+        android:layout_marginBottom="10dp" />
+
+
+    <com.mungi.customProgressbar.CustomProgressBar
+        android:id="@+id/humi_progress_bar"
+        style="@style/NumberProgressBar_Relax_Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_alignBottom="@+id/humiImg"
+        android:layout_alignStart="@+id/babyImg"
+        android:layout_marginBottom="10dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/babyImg"
+        android:src="@drawable/good_nobg"
+        android:layout_below="@+id/humiImg"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/idealTxt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="온도"
+        android:id="@+id/textView"
+        android:layout_alignStart="@+id/temp_progress_bar"
+        android:layout_toRightOf="@+id/tempImg"
+        android:layout_above="@+id/temp_progress_bar"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="습도"
+        android:id="@+id/textView2"
+        android:layout_alignStart="@+id/humi_progress_bar"
+        android:layout_toRightOf="@+id/humiImg"
+        android:layout_above="@+id/humi_progress_bar"
+        android:layout_marginBottom="20dp" />
+
+
+</RelativeLayout>
+<!-- From: file:/Users/MungiPark/AndroidStudioProjects/Baby_Sitter/app/src/main/res/layout/activity_main.xml -->

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/MungiPark/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/MungiPark/AndroidStudioProjects/Baby_Sitter/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-e5b59497ab86461b13efcc34b3b5ce2838ad135d.jar" />
+    </item>
+    <item
+        jar="/Users/MungiPark/AndroidStudioProjects/Baby_Sitter/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/MungiPark/AndroidStudioProjects/Baby_Sitter/app/build/intermediates/pre-dexed/debug/classes-665eebd293195d8dd7c9e2df697a992b7d1a54cd.jar" />
+    </item>
+    <item
+        jar="/Users/MungiPark/AndroidStudioProjects/Baby_Sitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/MungiPark/AndroidStudioProjects/Baby_Sitter/app/build/intermediates/pre-dexed/debug/classes-5963cec4bce8b8e859ddafd4679d98705fcbff90.jar" />
+    </item>
+    <item
+        jar="/Users/MungiPark/AndroidStudioProjects/Baby_Sitter/app/libs/google-play-services.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0cc4583d020880e34274a4c7b8ac772d96ecdac7">
+        <dex dex="/Users/MungiPark/AndroidStudioProjects/Baby_Sitter/app/build/intermediates/pre-dexed/debug/google-play-services-8a326d0870ed7fb03d3d5f281d1065e6b052cc48.jar" />
+    </item>
+    <item
+        jar="/Users/MungiPark/AndroidStudioProjects/Baby_Sitter/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/MungiPark/AndroidStudioProjects/Baby_Sitter/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-fc28fe478847c491379a690bf834c250deafd88e.jar" />
+    </item>
+    <item
+        jar="/Users/MungiPark/AndroidStudioProjects/Baby_Sitter/app/build/intermediates/exploded-aar/Baby_Sitter/library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="94e9137e56ef69b62f79945ef85a4e17970cb8ca">
+        <dex dex="/Users/MungiPark/AndroidStudioProjects/Baby_Sitter/app/build/intermediates/pre-dexed/debug/classes-9faedeb3697186da666636777bef276a750fc9b4.jar" />
+    </item>
+
+</items>
